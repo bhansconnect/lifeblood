@@ -1,0 +1,30 @@
+{
+  "name": "LifeBlood",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "ppx-flags": [
+    ["@reasonml-community/graphql-ppx/ppx", "-template-tag=graphql"]
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "reason-gatsby",
+    "@glennsl/bs-json",
+    "bs-css",
+    "bs-css-emotion"
+  ],
+  "refmt": 3
+}
