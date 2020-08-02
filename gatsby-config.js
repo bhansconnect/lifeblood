@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `LifeBlood`,
@@ -12,5 +16,12 @@ module.exports = {
     },
     `@jfrolich/gatsby-plugin-reason`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: `@prismicio/gatsby-source-prismic-graphql`,
+      options: {
+        repositoryName: `lifeblood`,
+        accessToken: `${process.env.API_KEY}`,
+      },
+    },
   ],
 }
