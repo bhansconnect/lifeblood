@@ -34,6 +34,7 @@ module.exports = {
       options: {
         name: `LifeBlood`,
         short_name: `LifeBlood`,
+        description: `A site for analyzing and tracking blood test results over time.`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#8B4513`,
