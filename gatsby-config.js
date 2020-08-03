@@ -29,5 +29,29 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `LifeBlood`,
+        short_name: `LifeBlood`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#8B4513`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+        cache_busting_mode: "none",
+        icon_options: {
+          purpose: `maskable`,
+        },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/icons/*"],
+        },
+      },
+    },
   ],
 }
