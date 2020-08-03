@@ -11421,6 +11421,12 @@
             "deprecationReason": null,
             "description": null,
             "isDeprecated": false,
+            "name": "pluginCreator___pluginOptions___description"
+          },
+          {
+            "deprecationReason": null,
+            "description": null,
+            "isDeprecated": false,
             "name": "pluginCreator___pluginOptions___dest"
           },
           {
@@ -12950,6 +12956,12 @@
             "deprecationReason": null,
             "description": null,
             "isDeprecated": false,
+            "name": "pluginOptions___description"
+          },
+          {
+            "deprecationReason": null,
+            "description": null,
+            "isDeprecated": false,
             "name": "pluginOptions___dest"
           },
           {
@@ -13892,6 +13904,18 @@
             "deprecationReason": null,
             "description": null,
             "isDeprecated": false,
+            "name": "description",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "deprecationReason": null,
+            "description": null,
+            "isDeprecated": false,
             "name": "dest",
             "type": {
               "kind": "SCALAR",
@@ -14125,6 +14149,16 @@
             "defaultValue": null,
             "description": "",
             "name": "contentTypes",
+            "type": {
+              "kind": "INPUT_OBJECT",
+              "name": "StringQueryOperatorInput",
+              "ofType": null
+            }
+          },
+          {
+            "defaultValue": null,
+            "description": "",
+            "name": "description",
             "type": {
               "kind": "INPUT_OBJECT",
               "name": "StringQueryOperatorInput",
