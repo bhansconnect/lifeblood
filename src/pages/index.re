@@ -1,14 +1,11 @@
 [%graphql
   {|
   query{
-    prismic {
-      allLab_results {
-        edges {
-          node {
-            name
-            description
-          }
-        }
+    allStrapiLabResult {
+      nodes {
+        id
+        name
+        description
       }
     }
   }
@@ -22,28 +19,22 @@ module Styles = {
 
 [@react.component]
 let make = (~data, ~location: Gatsby.location) => {
-  switch (parse(data)) {
-  | {prismic: {allLab_results: {edges: Some(edges)}}} =>
-    <div>
-      {Belt.Array.map(
-         edges,
-         fun
-         | Some({node: {name: Some(name), description: Some(description)}}) =>
-           <div key={Js.Json.stringifyWithSpace(name, 2)}>
-             <div className=Styles.title>
-               {React.string(Js.Json.stringifyWithSpace(name, 2))}
-             </div>
-             <div>
-               {React.string(Js.Json.stringifyWithSpace(description, 2))}
-             </div>
-           </div>
-         | _ => React.null,
-       )
-       ->React.array}
-      <div> {React.string("My location is: " ++ location.pathname)} </div>
-    </div>
-  | _ => React.null
-  };
+  let {allStrapiLabResult: {nodes}} = parse(data);
+  <div>
+    {Belt.Array.map(
+       nodes,
+       fun
+       | {id, name: Some(name), description: Some(description)} => {
+           <div key=id>
+             <div className=Styles.title> {React.string(name)} </div>
+             <ReactMarkdown source=description />
+           </div>;
+         }
+       | _ => React.null,
+     )
+     ->React.array}
+    <div> {React.string("My location is: " ++ location.pathname)} </div>
+  </div>;
 };
 
 let default = make;

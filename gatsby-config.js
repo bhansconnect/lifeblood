@@ -17,10 +17,16 @@ module.exports = {
     `@jfrolich/gatsby-plugin-reason`,
     `gatsby-plugin-netlify`,
     {
-      resolve: `@prismicio/gatsby-source-prismic-graphql`,
+      resolve: `gatsby-source-strapi`,
       options: {
-        repositoryName: `lifeblood`,
-        accessToken: `${process.env.API_KEY}`,
+        apiURL: `${process.env.STRAPI_URL}`,
+        queryLimit: 1000, // Default to 100
+        contentTypes: [`lab-result`],
+        singleTypes: [],
+        loginData: {
+          identifier: `${process.env.STRAPI_IDENTIFIER}`,
+          password: `${process.env.STRAPI_PASSWORD}`,
+        },
       },
     },
   ],
