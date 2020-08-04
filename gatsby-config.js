@@ -5,10 +5,13 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     title: `LifeBlood`,
+    siteUrl: `https://lifeblood.app`,
     description: `Analyze and track your blood test results over time. All data kept private and stored locally on your device.`,
     image: `https://lifeblood.app/icons/icon-512x512.png`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `@jfrolich/gatsby-plugin-extract-schema`,
       options: {

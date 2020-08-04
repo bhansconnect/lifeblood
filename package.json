@@ -28,6 +28,8 @@
     "gatsby-plugin-offline": "^3.2.21",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
+    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-source-strapi": "0.0.12",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
