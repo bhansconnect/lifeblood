@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2908"
+   sodipodi:docname="drop-of-blood.svg"
+   viewBox="0 0 511.99999 511.99998"
+   version="1.1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   width="512"
+   height="512">
+  <defs
+     id="defs2910">
+    <filter
+       id="filter3654"
+       height="3.7567"
+       width="1.4249001"
+       color-interpolation-filters="sRGB"
+       y="-1.3783"
+       x="-0.21243"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur3656"
+         stdDeviation="14.798438"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3684"
+       height="3.6493001"
+       width="1.4083"
+       color-interpolation-filters="sRGB"
+       y="-1.3246"
+       x="-0.20416"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur3686"
+         stdDeviation="14.221876"
+         inkscape:collect="always" />
+    </filter>
+    <linearGradient
+       id="linearGradient3830"
+       y2="66.129997"
+       gradientUnits="userSpaceOnUse"
+       x2="494.54001"
+       gradientTransform="matrix(1.0676376,0,0,1.0676376,-286.54305,-387.76031)"
+       y1="238.71001"
+       x1="482.88"
+       inkscape:collect="always">
+      <stop
+         id="stop3630"
+         style="stop-color:#fff7f2"
+         offset="0" />
+      <stop
+         id="stop3632"
+         style="stop-color:#fc6201;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="radialGradient2906"
+       gradientUnits="userSpaceOnUse"
+       cx="555.12"
+       cy="217.64"
+       r="104.86"
+       gradientTransform="matrix(1.0676376,-1.7248579e-7,2.5460045e-7,1.5759028,-286.54305,-455.09531)"
+       inkscape:collect="always">
+      <stop
+         id="stop3600"
+         style="stop-color:#ff7800"
+         offset="0" />
+      <stop
+         id="stop3602"
+         style="stop-color:#b50300"
+         offset="1" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="0"
+     pagecolor="#ffffff"
+     inkscape:window-height="1056"
+     inkscape:window-maximized="1"
+     inkscape:zoom="0.55946293"
+     inkscape:window-x="0"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="120.10383"
+     inkscape:cy="534.74784"
+     inkscape:window-width="1920"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:document-rotation="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-53.407,456.06)">
+    <path
+       id="path2818"
+       sodipodi:nodetypes="csssc"
+       style="fill:url(#radialGradient2906);stroke-width:0.445573"
+       d="m 306.21616,-406.06 c -10.5289,70.34707 -122.18505,184.14198 -110.68035,257.18477 11.17497,70.96641 71.75063,106.411746 115.79552,102.6823 73.37698,-6.211288 106.45632,-70.59659 106.20234,-116.11633 C 417.11038,-237.70468 336.2255,-295.8475 306.21616,-406.06 Z" />
+    <path
+       id="path2820"
+       sodipodi:nodetypes="cscss"
+       style="fill:url(#linearGradient3830);stroke-width:0.445573"
+       d="m 225.55407,-112.71252 c 28.00426,10.45893 9.88147,-47.7788 21.03595,-93.64164 8.62629,-35.46895 25.77328,-89.77406 32.34548,-123.27224 -15.18424,32.63021 -37.96906,67.20579 -41.84555,73.28786 -24.72663,38.78045 -54.18614,127.70124 -11.53588,143.63047 z" />
+    <path
+       id="path2822"
+       sodipodi:nodetypes="csczc"
+       style="opacity:0.59919;fill:#ffffff;stroke-width:0.445573"
+       d="m 260.839,-69.73701 c 0,0 49.76159,32.119133 105.40476,-4.97616 44.69098,-29.79279 43.42867,-87.76006 43.42867,-87.76006 0,0 -6.04955,61.62275 -55.64317,84.59649 -49.59228,22.971962 -93.1916,7.69059 -93.1916,8.14285 z" />
+    <ellipse
+       id="path2824"
+       style="opacity:0.54585;fill:#c92300;stroke:#ffffff;filter:url(#filter3654)"
+       transform="matrix(1.7180406,0,0,1.6095435,32.973833,-599.19364)"
+       cx="160.89676"
+       cy="353.55865"
+       rx="87.234589"
+       ry="20.59931" />
+    <ellipse
+       id="path3658"
+       style="fill:#de4121;filter:url(#filter3684)"
+       transform="matrix(0.6294165,0,0,0.6294165,208.13216,-252.65365)"
+       cx="160.89676"
+       cy="353.55865"
+       rx="83.594406"
+       ry="12.883725" />
+    <ellipse
+       id="path3688"
+       style="opacity:0.94332;fill:#dd4200;filter:url(#filter3684)"
+       transform="matrix(0.35767931,0,0,0.35767931,251.84733,-156.5881)"
+       cx="160.89676"
+       cy="353.55865"
+       rx="83.594406"
+       ry="12.883725" />
+    <ellipse
+       id="path3835"
+       style="opacity:0.18341;fill:#c92300;stroke:#ffffff;filter:url(#filter3654)"
+       transform="matrix(1.0507058,0,0,0.98435999,140.34268,-378.1493)"
+       cx="160.89676"
+       cy="353.55865"
+       rx="87.234589"
+       ry="20.59931" />
+  </g>
+  <metadata
+     id="metadata89">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Blood Drop</dc:title>
+        <dc:date>2011-08-08T11:34:17</dc:date>
+        <dc:description>A drop of blood. I hope this can be used in many relevant contexts like life, blood donation, health etc.</dc:description>
+        <dc:source>https://openclipart.org/detail/154351/blood-drop-by-prapanj</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>prapanj</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Blood</rdf:li>
+            <rdf:li>donation</rdf:li>
+            <rdf:li>drop</rdf:li>
+            <rdf:li>droplet</rdf:li>
+            <rdf:li>life</rdf:li>
+            <rdf:li>red</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -36,13 +36,29 @@ module.exports = {
         short_name: `LifeBlood`,
         description: `A site for analyzing and tracking blood test results over time.`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#8B4513`,
+        background_color: `#c8c8c8`,
+        theme_color: `#ac0404`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
         cache_busting_mode: "none",
+        icon: `static/favicon.svg`,
+        icons: [
+          "48x48",
+          "72x72",
+          "96x96",
+          "144x144",
+          "192x192",
+          "256x256",
+          "384x384",
+          "512x512",
+        ].map(size => {
+          return {
+            src: `/icons/icon-${size}.png`,
+            sizes: size,
+            type: `image/png`,
+          }
+        }),
         icon_options: {
-          purpose: `maskable`,
+          purpose: `any maskable`,
         },
       },
     },
