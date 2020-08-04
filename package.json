@@ -1,7 +1,7 @@
 {
   "name": "LifeBlood",
   "private": true,
-  "description": "A site for analyzing and tracking blood test results over time.",
+  "description": "Analyze and track your blood test results over time. All data kept private and stored locally on your device.",
   "version": "0.1.0",
   "license": "BSD-3-Clause",
   "scripts": {
@@ -26,9 +26,11 @@
     "gatsby-plugin-manifest": "^2.4.21",
     "gatsby-plugin-netlify": "^2.3.11",
     "gatsby-plugin-offline": "^3.2.21",
+    "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-source-strapi": "0.0.12",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
     "react-markdown": "^4.3.1",
     "react-snap": "^1.23.0",
     "reason-gatsby": "^0.1.8",

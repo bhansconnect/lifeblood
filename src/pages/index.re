@@ -21,13 +21,14 @@ module Styles = {
 let make = (~data, ~location: Gatsby.location) => {
   let {allStrapiLabResult: {nodes}} = parse(data);
   <div>
+    <SEO />
     {Belt.Array.map(
        nodes,
        fun
        | {id, name: Some(name), description: Some(description)} => {
            <div key=id>
              <div className=Styles.title> {React.string(name)} </div>
-             <ReactMarkdown source=description />
+             <Markdown source=description />
            </div>;
          }
        | _ => React.null,
