@@ -12,15 +12,11 @@
   |};
   {inine: true}
 ];
-module Styles = {
-  open Css;
-  let title = style([fontSize(rem(2.5)), lineHeight(`abs(1.25))]);
-};
 
 [@react.component]
 let make = (~data, ~location: Gatsby.location) => {
   let {allStrapiLabResult: {nodes}} = parse(data);
-  <div>
+  <Layout>
     <SEO />
     {Belt.Array.map(
        nodes,
@@ -35,7 +31,7 @@ let make = (~data, ~location: Gatsby.location) => {
      )
      ->React.array}
     <div> {React.string("My location is: " ++ location.pathname)} </div>
-  </div>;
+  </Layout>;
 };
 
 let default = make;

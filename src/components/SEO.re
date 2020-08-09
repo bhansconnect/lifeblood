@@ -1,6 +1,6 @@
 [%graphql
   {|
-    query SEO {
+    query{
       site {
         siteMetadata {
           title
