@@ -22,7 +22,7 @@
     "@reasonml-community/graphql-ppx": "^1.0.0-beta.21",
     "bs-css-emotion": "^1.2.0",
     "esm": "^3.2.25",
-    "gatsby": "^2.24.14",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-manifest": "^2.4.21",
     "gatsby-plugin-netlify": "^2.3.11",
     "gatsby-plugin-offline": "^3.2.21",
